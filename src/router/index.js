@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../App.vue' // ou un fichier Home.vue si tu l'as
-import ConstellationDetail from '../components/constellationDetail.vue'
+import Home from '../views/Home.vue'
+import ConstellationDetail from '../components/ConstellationDetail.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
